@@ -1,0 +1,42 @@
+{
+    "name": "graphql-authorization-and-validation-directives-highlighting",
+    "displayName": "Graphql Authorization and Validation Directives Highlighting",
+    "description": "highlight crud and permissions directives",
+    "version": "1.0.4",
+    "publisher": "zwhitchcox",
+    "license": "MIT",
+    "icon": "assets/icon.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/zwhitchcox/graphql-authorization-and-validation-directives-highlighting"
+    },
+    "bugs": {
+        "url": "https://github.com/zwhitchcox/graphql-authorization-and-validation-directives-highlighting"
+    },
+    "galleryBanner": {
+        "color": "#272729",
+        "theme": "dark"
+    },
+    "engines": {
+        "vscode": "^1.5.0"
+    },
+    "categories": [
+        "Other"
+    ],
+	"activationEvents": [
+		"*"
+	],
+    "main": "./src/extension",
+    "scripts": {
+        "postinstall": "node ./node_modules/vscode/bin/install",
+        "test": "node ./node_modules/vscode/bin/test"
+    },
+    "devDependencies": {
+        "typescript": "^2.0.3",
+        "vscode": "^1.0.0",
+        "mocha": "^2.3.3",
+        "eslint": "^3.6.0",
+        "@types/node": "^6.0.40",
+        "@types/mocha": "^2.2.32"
+    }
+}
